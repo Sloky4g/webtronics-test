@@ -1,0 +1,20 @@
+.techItemContainer {
+  width: 182px;
+  height: 230px;
+  position: relative;
+}
+
+.techItemContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.techItemTitle {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "ClashDisplayMedium", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}

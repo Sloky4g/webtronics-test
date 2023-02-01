@@ -1,0 +1,15 @@
+.stepTitle {
+  margin-bottom: 56px;
+  text-align: center;
+}
+
+.stepContainer {
+  position: relative;
+}
+
+.stepBgImg {
+  position: absolute;
+  top: 120PX;
+  left: 50%;
+  transform: translateX(-50%);
+}

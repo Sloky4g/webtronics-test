@@ -1,0 +1,87 @@
+/* Reset default styles */
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Main fonts */
+@font-face {
+  font-family: "ClashDisplayMedium";
+  src: local("ClashDisplayMedium"), url(../public/fonts/ClashDisplay-Medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: "ClashDisplayRegular";
+  src: local("ClashDisplayRegular"), url(../public/fonts/ClashDisplay-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "ClashDisplaySemibold";
+  src: local("ClashDisplaySemibold"), url(../public/fonts/ClashDisplay-Semibold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "InterMedium";
+  src: local("InterMedium"), url(../public/fonts/Inter-Medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: "InterRegular";
+  src: local("InterRegular"), url(../public/fonts/Inter-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "RobotoBold";
+  src: local("RobotoBold"), url(../public/fonts/Roboto-Bold.woff) format("woff");
+}
+
+/* Main styles */
+body * {
+  font-family: "interRegular", sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "ClashDisplaySemibold", sans-serif;
+}
+
+h1 {
+  font-size: 150px;
+}
+
+h2 {
+  font-size: 72px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+body {
+  background-color: #0C102D;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1244px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+}

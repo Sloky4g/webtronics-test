@@ -1,0 +1,27 @@
+.contactFormOuterInputContainer {
+  padding: 1px 0;
+  margin-bottom: 4px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background: linear-gradient(180deg, rgba(21,191,253,1), rgba(156,55,253,1)) border-box; /*3*/
+}
+
+.contactFormInput {
+  padding: 24px;
+  background: #252943;
+  border-radius: 7px;
+  width: 100%;
+}
+
+.contactFormInput::placeholder {
+  color: #A2CBFB;
+}
+
+.contactFormInput:focus::placeholder {
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+.contactFormError {
+  margin-bottom: 16px;
+}

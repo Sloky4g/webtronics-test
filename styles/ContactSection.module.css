@@ -1,0 +1,28 @@
+.contactOuterContainer {
+  padding: 1px 0;
+  margin-bottom: 148px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  background: linear-gradient(180deg, rgba(21,191,253,1), rgba(156,55,253,1)) border-box; /*3*/
+}
+
+.contactInnerContainer {
+  background: #191D39;
+  border-radius: 19px;
+  padding: 56px 0;
+}
+
+.contactTitle {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.contactSubtitle {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.contactInputContainer {
+  max-width: 493px;
+  margin: 0 auto;
+}

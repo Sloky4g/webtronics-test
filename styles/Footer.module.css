@@ -1,0 +1,90 @@
+.footerOuterContainer {
+  background: linear-gradient(180deg, rgba(21,191,253,1), rgba(156,55,253,1)) border-box; /*3*/
+  padding-top: 1px;
+}
+
+.footerInnerContainer {
+  background: #191D39;
+}
+
+.footer {
+  background: rgba(255, 255, 255, .05);
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 33px 0 34px;
+}
+
+.footerAddress {
+  max-width: 236px;
+}
+
+.footerLogo {
+  width: 169px;
+  height: 33px;
+  margin-bottom: 24px;
+}
+
+.footerLogo img {
+  width: 100%;
+  height: 100%;
+}
+
+.footerCompany {
+  min-width: 255px;
+}
+
+.footerTitle {
+  font-size: 18px;
+  font-family: "RobotoBold", sans-serif;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.footerLinksContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footerLink {
+  text-decoration: none;
+  display: block;
+}
+
+.footerSocial {
+  min-width: 380px;
+}
+
+.footerIcons {
+  display: flex;
+  gap: 24px;
+}
+
+.footerIcon1 {
+  width: 12px;
+  height: 22px;
+}
+
+.footerIcon2 {
+  width: 24px;
+  height: 24px;
+}
+
+.footerIcon3 {
+  width: 24px;
+  height: 24px;
+}
+
+.footerIcon4 {
+  width: 23px;
+  height: 22px;
+}

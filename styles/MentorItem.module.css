@@ -1,0 +1,25 @@
+.aboutMentorsItem {
+  padding-top: 51px;
+}
+
+.aboutMentorsItemImg {
+  width: 184px;
+  height: 184px;
+  z-index: 100;
+  margin-bottom: 18px;
+}
+
+.aboutMentorsItemImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.aboutMentorsItemTitle {
+  margin-bottom: 4px;
+  font-family: "ClashDisplayMedium", sans-serif;
+  font-weight: 500;
+}
+
+.aboutMentorsItemText {
+  font-size: 14px;
+}

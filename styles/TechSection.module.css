@@ -1,0 +1,19 @@
+.techTitle {
+  margin: 0 auto 16px;
+  text-align: center;
+  max-width: 543px;
+}
+
+.techSubtitle {
+  text-align: center;
+  max-width: 432px;
+  margin: 0 auto 54px;
+}
+
+.techContent {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto 184px;
+}
